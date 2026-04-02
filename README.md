@@ -5,21 +5,22 @@
 
 Volumetric lung nodule segmentation using 3D deep learning models on CT scans.
 
-## Overview
+# Lung Nodule Segmentation (3D)
 
-This repository contains 3D approaches for lung nodule segmentation using volumetric CT data. It explores models that leverage spatial context across slices.
+3D lung nodule segmentation using volumetric CT patches and deep learning models.
+
+## Overview
+This repository contains code developed as part of a thesis project on lung nodule segmentation from CT scans using 3D deep learning methods.
+
+## Current Contents
+- 3D patch-based training pipeline
+- SwinUNETR model
+- MONAI-based augmentation
+- Hybrid Dice + BCE loss
+- Training and validation metrics
 
 ## Method
-
-* 3D volumetric input
-* Deep learning-based segmentation models
-* Preprocessed CT volumes with ROI extraction
-
-## Features
-
-* 3D data handling
-* Model training and evaluation
-* Support for volumetric inputs
+The current implementation uses 3D CT patches stored as `.npy` files and trains a SwinUNETR model for volumetric segmentation.
 
 ## Structure
 ```text
