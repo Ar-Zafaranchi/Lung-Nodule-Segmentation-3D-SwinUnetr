@@ -22,7 +22,7 @@ This repository contains 3D approaches for lung nodule segmentation using volume
 * Support for volumetric inputs
 
 ## Structure
-
+```text
 lung-nodule-segmentation-3d/
 │
 ├── README.md
@@ -31,6 +31,7 @@ lung-nodule-segmentation-3d/
 ├── src/
 ├── notebooks/
 └── results/
+```
 
 ## Status
 
