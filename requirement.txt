@@ -1,0 +1,9 @@
+Use this for now:
+
+```txt
+monai==1.2.0
+torch
+torchvision
+numpy
+scikit-learn
+matplotlib
